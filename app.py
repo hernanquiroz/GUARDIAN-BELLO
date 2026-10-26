@@ -1,4 +1,3 @@
-
 """
 GUARDIÁN BELLO — DASHBOARD STREAMLIT CON DATOS REALES
 Descarga automática de datos de NASA FIRMS
