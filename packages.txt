@@ -1,0 +1,10 @@
+# ============================================================
+# Guardián Bello — Dependencias del sistema (Debian/apt-get)
+# Requeridas por rasterio, geopandas y GDAL
+# ============================================================
+
+gdal-bin
+libgdal-dev
+libspatialindex-dev
+proj-bin
+python3-gdal
