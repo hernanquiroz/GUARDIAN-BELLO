@@ -1,0 +1,26 @@
+# ============================================================
+# Guardián Bello — Dependencias Python
+# Versión mínima recomendada: Python 3.11
+# ============================================================
+
+# Framework principal
+streamlit>=1.28.0,<2.0.0
+
+# Manipulación de datos
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Visualización geoespacial (versiones compatibles confirmadas)
+folium==0.14.0
+streamlit-folium==0.16.0
+branca==0.7.0
+
+# Descarga de datos satelitales
+requests>=2.31.0
+
+# Pipeline de datos (solo se importan en pipeline.py)
+pystac-client>=0.7.0
+planetary-computer>=1.0.0
+rasterio>=1.3.0
+geopandas>=0.14.0
+scipy>=1.11.0
